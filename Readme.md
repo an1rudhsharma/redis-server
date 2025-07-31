@@ -1,17 +1,6 @@
 # Welcome to My Cpp Redis Server
 ***
 
-**Step‑by‑Step Video Tutorial:** Watch the full implementation from start to finish on YouTube:\
-[Build Your Own Redis Server in C++](https://youtube.com/playlist?list=PL6F3pyVdiAkfr4HaJXNrQDviFJNUWahgI&si=145SP0xehVBxciS0) \
-*The full playlist will be available on May 11.*
-
----
-
-## Task
-A lightweight Redis-compatible in-memory data store written in C++. Supports strings, lists, and hashes, full Redis Serialization Protocol (RESP) parsing, multi-client concurrency, and periodic disk persistence.
-
----
-
 ## Description
 **Name:** `my_redis_server`  
 **Default Port:** `6379`  
@@ -165,7 +154,7 @@ OK
 
 ## Concepts & Use Cases
 
-Refer to [Concepts,UseCases&Tests.md](concepts.md) for a detailed description of the underlying concepts (TCP sockets, RESP, data structures, etc.) and real‑world usage scenarios for each command.
+Refer to [concepts.md](concepts.md) for a detailed description of the underlying concepts (TCP sockets, RESP, data structures, etc.) and real‑world usage scenarios for each command.
 
 ---
 
